@@ -50,7 +50,7 @@ jobs:
           commit_message: "Clear branch"
 
       - name: Checkout main branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Remove files user doesn't need
         run: |
@@ -97,7 +97,7 @@ jobs:
             writeFileSync(file, contents);
 
       - name: Personalize homepage for user
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const { readFileSync, writeFileSync } = require("fs");
