@@ -26,10 +26,17 @@ RUN python3 -m pip install --no-cache-dir --upgrade --requirement requirements.t
 # install python package for listening for file changes
 RUN pip install "watchdog[watchmedo]==3.0.0"
 
+
+# copy entire project
+COPY . .
+
+
 # ports used by jekyll
 EXPOSE 4000
 EXPOSE 35729
 
 # run jekyll and cite process
-COPY .docker/entrypoint.sh /var
-CMD [ "/var/entrypoint.sh" ]
+COPY .docker/entrypoint.sh /usr/src/app/entrypoint.sh
+RUN sed -i 's/\r$//' /usr/src/app/entrypoint.sh && chmod +x /usr/src/app/entrypoint.sh
+
+ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
