@@ -20,15 +20,15 @@ title: 成员
   
 {% include list_portrait.html data="members" component="portrait" filters="role: 机械组, time:23" style="small" %}
 
-## {% include icon.html icon="fa-solid fa-users" %}电路组
+## {% include icon.html icon="fa-solid fa-users" %}硬件组
 
-{% include list_portrait.html data="members" component="portrait" filters="role: 电路组, time:23" style="small" %}
-## {% include icon.html icon="fa-solid fa-users" %}嵌软组
+{% include list_portrait.html data="members" component="portrait" filters="role: 硬件组, time:23" style="small" %}
+## {% include icon.html icon="fa-solid fa-users" %}电控组
 
-{% include list_portrait.html data="members" component="portrait" filters="role: 嵌软组,time: 23" style="small"  %}
-## {% include icon.html icon="fa-solid fa-users" %}算法组
+{% include list_portrait.html data="members" component="portrait" filters="role: 电控组,time: 23" style="small"  %}
+## {% include icon.html icon="fa-solid fa-users" %}视觉组
 
-{% include list_portrait.html data="members" component="portrait" filters="role: 算法组, time:23" style="small" %}
+{% include list_portrait.html data="members" component="portrait" filters="role: 视觉组, time:23" style="small" %}
 ## {% include icon.html icon="fa-solid fa-users" %}运营组
 
 {% include list_portrait.html data="members" component="portrait" filters="role: 运营组, time:23" style="small" %}
