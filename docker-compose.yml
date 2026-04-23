@@ -1,0 +1,21 @@
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    ports:
+      - "4000:4000"
+      - "9000:35729"
+    volumes:
+      - ./_posts:/usr/src/app/_posts
+      - ./_data:/usr/src/app/_data
+      - ./_includes:/usr/src/app/_includes
+      - ./_members:/usr/src/app/_members
+      - ./_news:/usr/src/app/_news
+      - ./_projects:/usr/src/app/_projects
+      - ./_awards:/usr/src/app/_awards
+      - ./_events:/usr/src/app/_events
+      - ./index.md:/usr/src/app/index.md
+      - ./_config.yaml:/usr/src/app/_config.yaml
+    stdin_open: true
+    tty: true
