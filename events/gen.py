@@ -11,7 +11,7 @@ json_data = json.loads(open('schedule.json').read())
 
 video_data = requests.get("https://rm-static.djicdn.com/live_json/simple_cms.json").json()
 
-target_college = "华中科技大学"
+target_college = "新疆工程学院"
 
 # print(len(matches_))
 
@@ -145,7 +145,7 @@ print(len(saved_matches))
 # 保存到文件
 # ---
 # name: 小组赛
-# red: 华中科技大学 狼牙
+# red: 新疆工程学院 金胡杨
 # blue: 西安交通大学 笃行
 # red_score: 2
 # red_logo: /images/1525675209294-logo_blue_800x800.png
