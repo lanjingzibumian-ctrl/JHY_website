@@ -125,6 +125,13 @@ bilibili:
   text: Bilibili
   tooltip: Bilibili
   link: https://space.bilibili.com/$VALUE
+
+qq:
+  icon: fa-brands fa-qq
+  text: QQ
+  tooltip: QQ Group
+  link: $VALUE
+
 wechat:
   icon: fa-brands fa-weixin
   text: WeChat

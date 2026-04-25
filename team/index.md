@@ -43,7 +43,7 @@ nav:
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-从狼牙走出的优秀人才，他们在各自领域取得了优异的成绩，是狼牙战队的骄傲和榜样。
+从金胡杨走出的优秀人才，他们在各自领域取得了优异的成绩，是金胡杨战队的骄傲和榜样。
 
 {% include section.html %}
 

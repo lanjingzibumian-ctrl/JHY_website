@@ -1,18 +1,18 @@
 # site properties and page defaults
-title: 金胡杨
-subtitle: 
+title: 金胡杨战队
+subtitle: Golden Poplar Team
 description: 坚韧不拔，胡杨不朽
 header: images/background.jpg
-header-video: images/bgvideo.mp4
+header-video: images/JHY2026.mp4
 footer: images/background.jpg
 proofer: false
 slogan: 坚韧不拔，胡杨不朽
 # site social media and other links
 links:
-  email: 1@1.cn
+  email: lanjingzibumian@qq.com
   github: lanjingzibumian-ctrlDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  bilibili: "475402455"
-  wechat: https://mp.weixin.qq.com/s/Zrk4PRRGSimJG9bVDj3Zsg
+  bilibili: "3546755463383730"
+  qq: https://qun.qq.com/universal-share/share?ac=1&authKey=NoVToPoK4fTY2dm9WQRezVQ8tvPsXkVWB70idhelz2du0mCrxE%2B8C8Xzl0GBEZS%2B&busi_data=eyJncm91cENvZGUiOiIxMDM0MTEzNjkyIiwidG9rZW4iOiIrcUpyQnVWT0c1b3kyS2hGZXFuK0I4bkZQWHQ4Q0QrWmFLRHJZVml5cHNwelVWeWxaS0gzVW1HRkRPRlZQR1I4IiwidWluIjoiMjIxMjc1MzA5NSJ9&data=79t8_89royN5BTubbEa7-ZzZFDHZAA3o4UyzNTK4BwVsrEDn4P_ruo9kUCNMonmU1gkQy5G_PMO_lkYZRMNTTA&svctype=4&tempid=h5_group_info 
 ## jekyll settings
 
 # front matter defaults
