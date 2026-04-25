@@ -12,3 +12,4 @@ for i in range(image.shape[0]):
             image[i, j][1] = 255
             image[i, j][2] = 255
 cv2.imwrite('images/1.png', image)
+
