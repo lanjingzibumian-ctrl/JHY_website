@@ -17,7 +17,8 @@ nav:
   link="lanjingzibumian@qq.com""
 %}
 
-  type="phone"
+{%
+type="phone"
   text="139-6610-2222"
   link="tel:139-6610-2222"
 %}
