@@ -1,4 +1,5 @@
 ---
+---
 title: 联系
 nav:
   order: 6
@@ -14,13 +15,14 @@ nav:
   include button.html
   type="email"
   text="lanjingzibumian@qq.com"
-  link="lanjingzibumian@qq.com""
+  link="lanjingzibumian@qq.com"
 %}
 
 {%
-type="phone"
+  include button.html
+  type="phone"
   text="139-6610-2222"
-  link="tel:139-6610-2222"
+  link="tel:1396610222"
 %}
 
 {%
